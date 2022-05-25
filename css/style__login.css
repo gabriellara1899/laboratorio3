@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login {
+    position: relative;
+    min-height: 100vh;
+    background: linear-gradient(-45deg, #f46b45, #cca849);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    margin: 20px 50px;
+}
+
+.icono a i {
+    color: #777;
+    font-size: 30px;
+}
+
+.login .container {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    border-radius: 1.3rem;
+    background: linear-gradient(45deg, #cca849, #ff9fef);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .9);
+    overflow: hidden;
+}
+
+.login .container .user {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.login .container .user .img__user {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(45deg, #cca849, #ff9fef);
+    transition: .8s;
+}
+
+.login .container .user .img__user img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.login .container .user .form__user {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(-45deg, #cca849, #ff9fef);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+    transition: .8s;
+}
+
+.login .container .user .form__user form .titulo1 {
+    font-family: 'Carter One', cursive;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    width: 100%;
+    color: #F32424;
+}
